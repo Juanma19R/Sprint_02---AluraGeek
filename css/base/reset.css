@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
