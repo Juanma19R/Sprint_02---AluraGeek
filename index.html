@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/base/reset.css">
     <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/layout/header.css">
+    <link rel="stylesheet" href="./css/layout/main.css">
     <link rel="stylesheet" href="./css/layout/footer.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +20,8 @@
 </head>
 <body>
     <header>
-        <section class="menu">
-            <nav class="menu__nav container">
+        <nav class="menu conainer">
+            <div class="menu__nav">
                 <figure class="menu__logo-box">
                     <img class="menu__logo-img" src="./assets/Vector.svg" alt="alurageek logo">
                     <span class="alura__blue">Alura</span>
@@ -30,11 +31,11 @@
                     <input type="search" class="menu__search-input" placeholder="¿Qué deseas buscar?">
                     <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
                 </div>
-                <div class="menu__cart-login-box">
-                    <a class="menu__button" href="./login.html">Login</a>
-                </div>
-            </nav>
-        </section>
+            </div>
+            <div class="menu__cart-login-box">
+                <a class="menu__button" href="./login.html">Login</a>
+            </div>
+        </nav>
 
         <section class="hero">
             <div class="hero__banner">
@@ -47,8 +48,183 @@
         </section>
     </header>
 
-    <footer>
+    <main class="main__eshop">
+        <section class="starwars category container">
+            <div class="category__title-box">
+                <h2 class="category__title">StarWars</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver todo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <div class="category__product" >
+                    <img class="category__img" src="./assets/unsplash_6FDXGY9J6y4.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_epRFE_hBNjo.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_KeGToDVN0l4.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_4OHkK555s1A.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_R8L1l9RN198.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_1VV1MRafd7A.jpg" alt="starwars">
+                    <h4 class="category__name">Producto XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="consolas category container">
+            <div class="category__title-box">
+                <h2 class="category__title">Consolas</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver todo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_0POwK6iAiRQ.jpg" alt="consolas">
+                    <h4 class="category__name">Control XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_caNzzoxls8Q.jpg" alt="consolas">
+                    <h4 class="category__name">Control y consola XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_ZV7lnfyQLmA.jpg" alt="consolas">
+                    <h4 class="category__name">Consola XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_wa5z9o9fgjw.jpg" alt="consolas">
+                    <h4 class="category__name">Control XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_Zjn4dT993-g.jpg" alt="consolas">
+                    <h4 class="category__name">Consola XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_k-xYhI3-gJM.jpg" alt="consolas">
+                    <h4 class="category__name">Game Boy Color</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="diversos category container">
+            <div class="category__title-box">
+                <h2 class="category__title">Diversos</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver todo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_fMP-oCze3AY.jpg" alt="diversos">
+                    <h4 class="category__name">Camisa Atari</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_bUgaIaZysH0.jpg" alt="diversos">
+                    <h4 class="category__name">Camisa SNES</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_sYVY_ZKwaxU.jpg" alt="diversos">
+                    <h4 class="category__name">Figura Sonic XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_jMT6BrgBuXU.jpg" alt="diversos">
+                    <h4 class="category__name">Radio Reloj XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_MxVkWPiJALs.jpg" alt="diversos">
+                    <h4 class="category__name">VR XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+                <div class="category__product">
+                    <img class="category__img" src="./assets/unsplash_r27umXAelDc.jpg" alt="diversos">
+                    <h4 class="category__name">Disfraz Pikachu XYZ</h4>
+                    <p class="category__price">$ 60,00</p>
+                    <a href="#" class="category__detail">Ver producto</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__logo-img" src="./assets/Vector.svg" alt="Alurageek logo">
+            <span class="alura__blue">Alura</span>
+            <span class="geek__dark">Geek</span>
+            <ul class="footer__list">
+                <li class="footer__item-list"><a href="#">Quiénes somos</a></li>
+                <li class="footer__item-list"><a href="#">Política de privacidad</a></li>
+                <li class="footer__item-list"><a href="#">Programa de fidelidad</a></li>
+                <li class="footer__item-list"><a href="#">Nuestras tiendas</a></li>
+                <li class="footer__item-list"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="footer__item-list"><a href="#">Anúncie aquí</a></li>
+            </ul>
+            <div class="footer__form-box">
+                <h3 class="footer__form-title">Hable con nosotros</h3>
+                <form class="footer__form">
+                    <label class="footer__form-label" for="name">
+                        <p class="footer__form-field">Nombre: </p>
+                        <input class="footer__form-input" type="text" id="name" name="name" placeholder="André Lisboa" required>
+                    </label>
+                    <label class="footer__form-label" for="message">
+                        <p class="footer__form-field">Mensaje:</p>
+                        <textarea class="footer__form-input" type="text" id="message" name="message" rows="5" autocomplete="off" required></textarea>
+                    </label>
+                    <button class="footer__form-submit" type="submit" id="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__developed">
+            <p>&copy Copyrigth- 2022 | Ruggeri Juan</p>
+        </div>
     </footer>
 </body>
 </html>
