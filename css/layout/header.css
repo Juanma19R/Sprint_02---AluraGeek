@@ -20,16 +20,7 @@
     align-items: center;
 }
 .menu__logo-img{
-    height: 2rem;
-}
-.alura__blue{
-    color: #2A7AE4;
-    font-weight: bold;
-    margin-left: .2rem;
-}
-.geek__dark{
-    color: #000;
-    font-weight: bold;
+    height: 3rem;
 }
 .menu__search-box{
     display: flex;

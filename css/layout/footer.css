@@ -7,13 +7,8 @@
     justify-content: space-between;
     padding: 2rem 0;
 }
-.footer__logo-box{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
 .footer__logo-img{
-    height: 2rem;
+    height: 3rem;
 }
 .footer__list{
     display: flex;
