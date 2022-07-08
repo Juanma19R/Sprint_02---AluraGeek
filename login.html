@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/layout/header.css">
+    <link rel="stylesheet" href="./css/layout/login.css">
+    <link rel="stylesheet" href="./css/layout/footer.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <title>AluraGeek | Login</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="menu">
+            <div class="menu__nav">
+                    <img class="menu__logo-img" src="./assets/Vector.svg" alt="alurageek logo">
+                <div class="menu__search-box">
+                    <input type="search" class="menu__search-input" placeholder="¿Qué deseas buscar?">
+                    <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="login__container container">
+                <h1 class="login__form-title">Iniciar Sesión</h1>
+                <form class="login__form" action="./admin.html">
+                    <label class="login__form-label" for="email" ></label>
+                    <input class="login__form-input" type="email" id="email" name="email" autocomplete="off" placeholder="Escriba su correo electrónico">
+                    <label class="login__form-label" for="password" ></label>
+                    <input class="login__form-input" type="password" id="password" name="password" autocomplete="off" placeholder="Escriba su contraseña">
+                    <button class="login__form-submit" type="submit" id="login">Entrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__logo-img" src="./assets/Vector.svg" alt="Alurageek logo">
+            <ul class="footer__list">
+                <li class="footer__item-list"><a href="#">Quiénes somos</a></li>
+                <li class="footer__item-list"><a href="#">Política de privacidad</a></li>
+                <li class="footer__item-list"><a href="#">Programa de fidelidad</a></li>
+                <li class="footer__item-list"><a href="#">Nuestras tiendas</a></li>
+                <li class="footer__item-list"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="footer__item-list"><a href="#">Anúncie aquí</a></li>
+            </ul>
+            <div class="footer__form-box">
+                <h3 class="footer__form-title">Hable con nosotros</h3>
+                <form class="footer__form">
+                    <label class="footer__form-label" for="name">
+                        <p class="footer__form-field">Nombre: </p>
+                        <input class="footer__form-input" type="text" id="name" name="name" placeholder="André Lisboa" required>
+                    </label>
+                    <label class="footer__form-label" for="message">
+                        <p class="footer__form-field">Mensaje:</p>
+                        <textarea class="footer__form-input" type="text" id="message" name="message" rows="5" autocomplete="off" required></textarea>
+                    </label>
+                    <button class="footer__form-submit" type="submit" id="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__developed">
+            <p>&copy Copyrigth- 2022 | Ruggeri Juan</p>
+        </div>
+    </footer>
+</body>
+</html>

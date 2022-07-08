@@ -27,9 +27,10 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: #ece7e7;
+    background-color: #f3efef;
     padding: .5rem .8rem;
     border-radius: 2rem;
+    margin-left: 2rem;
 }
 .menu__search-input{
     width: 350px;
@@ -66,18 +67,17 @@
 
 /* Hero */
 .hero__banner{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
     background-image: url('../../assets/hero-background.png');
-    background-position: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%);
+    background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 352px;
+    height: 400px;
 }
 .hero__title-box{
     display: flex;
     flex-flow: column nowrap;
+    padding-top: 10rem;
     color: var(--color-white);
 }
 .hero_title{
@@ -89,7 +89,9 @@
     margin: .1rem;
 }
 .hero__action-button{
-    padding: .8rem 1rem;
+    padding: .8rem .5rem;
+    font-weight: lighter;
+    margin-top: .5rem;
     background-color: var(--color-blue);
     color: var(--color-white);
     border: none;
