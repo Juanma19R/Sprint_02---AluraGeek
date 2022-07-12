@@ -117,39 +117,3 @@
     background-color: var(--color-dark-blue);
     cursor: pointer;
 }
-
-@media screen and (max-width: 360px){
-    .menu{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .menu__nav{
-        flex-direction: column;
-        justify-content: center;
-        width: 70%;
-    }
-    .menu__search-box{
-        width: 100%;
-        margin: .5rem;
-    }
-    .menu__cart-login-box{
-        margin: 1rem;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .menu{
-        align-items: center;
-        align-content: center;
-    }
-    .menu__nav{
-        justify-content: left;
-    }
-    .menu__search-box{
-        width: 14rem;
-    }
-    .menu__cart-login-box{
-        padding: 0;
-        margin-left: 2.5rem;
-    }
-}
