@@ -66,3 +66,14 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media (max-width: 800px) {
+    .category__title-box{
+        flex-flow: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .category__title{
+        order: 1;
+    }
+}
