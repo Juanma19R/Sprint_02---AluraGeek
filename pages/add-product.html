@@ -38,29 +38,29 @@
         <section class="add-product">
             <div class="add-product__container container">
                 <h1 class="add-product__form-title">Agregar nuevo producto</h1>
-                <form class="add-product__form" action="">
+                <form class="add-product__form" data-form>
                     <label class="add-product__form-label" for="img" >
                         <p class="add-product__form-field">URL de imagen</p>
-                        <input class="add-product__form-input" type="text" id="img" name="url" required>
+                        <input class="add-product__form-input" type="text" id="img" name="url" required data-img>
                     </label>
                     <label class="add-product__form-label" for="category" >
                         <p class="add-product__form-field">Categoría</p>
-                        <input class="add-product__form-input" type="text" id="category" name="category" autocomplete="off" required>
+                        <input class="add-product__form-input" type="text" id="category" name="category" autocomplete="off" required data-category>
                     </label>
                     <label class="add-product__form-label" for="product-name" >
                         <p class="add-product__form-field">Nombre del producto</p>
-                        <input class="add-product__form-input" type="text" id="product-name" name="product-name" autocomplete="off" required>
+                        <input class="add-product__form-input" type="text" id="product-name" name="product-name" autocomplete="off" required data-name>
                     </label>
                     <label class="add-product__form-label" for="price" >
                         <p class="add-product__form-field">Precio del producto</p>
                         <div class="add-product__price-box">
                             <span>$</span>
-                            <input class="add-product__form-input" type="number" id="price" name="price" autocomplete="off" required>
+                            <input class="add-product__form-input" type="number" id="price" name="price" autocomplete="off" required data-price>
                         </div>
                     </label>
                     <label class="add-product__form-label" for="description">
                         <p class="add-product__form-field">Descripción del producto</p>
-                        <textarea class="add-product__form-input" type="text" id="description" name="description" rows="5" autocomplete="off" required></textarea>
+                        <textarea class="add-product__form-input" type="text" id="description" name="description" rows="5" autocomplete="off" required data-desc></textarea>
                     </label>
                     <button class="add-product__form-submit" type="submit" id="submit">Agregar producto</button>
                 </form>
@@ -98,5 +98,9 @@
             <p>&copy Copyrigth- 2022 | Ruggeri Juan</p>
         </div>
     </footer>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../scripts/controller/register-product.js"></script>
 </body>
 </html>

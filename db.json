@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 2,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 3,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 4,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 5,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 6,
+      "img": "",
+      "category": "StarWars",
+      "name": "Producto XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 7,
+      "img": "",
+      "category": "Consolas",
+      "name": "Control XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 8,
+      "img": "",
+      "category": "Consolas",
+      "name": "Control y Consola XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 9,
+      "img": "",
+      "category": "Consolas",
+      "name": "Consola XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 10,
+      "img": "",
+      "category": "Consolas",
+      "name": "Control XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 11,
+      "img": "",
+      "category": "Consolas",
+      "name": "Consola XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 12,
+      "img": "",
+      "category": "Consolas",
+      "name": "Game Boy Color",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 13,
+      "img": "",
+      "category": "Diversos",
+      "name": "Camisa Atari",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 14,
+      "img": "",
+      "category": "Diversos",
+      "name": "Camisa SNES",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 15,
+      "img": "",
+      "category": "Diversos",
+      "name": "Figura Sonic XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 16,
+      "img": "",
+      "category": "Diversos",
+      "name": "Radio Reloj XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 17,
+      "img": "",
+      "category": "Diversos",
+      "name": "VR XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    },
+    {
+      "id": 18,
+      "img": "",
+      "category": "Diversos",
+      "name": "Disfraz Pikachu XYZ",
+      "price": "60,00",
+      "desc": "Lorem ipsum dolor sit amet. Et laborum asperiores qui omnis modi qui aspernatur quisquam est sapiente voluptas. Ea quae dignissimos et pariatur sint et pariatur expedita eum perspiciatis consequatur. Qui debitis enim et nihil sint non doloremque libero."
+    }
+  ]
+}

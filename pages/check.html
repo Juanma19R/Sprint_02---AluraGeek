@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/base/reset.css">
-    <link rel="stylesheet" href="../css/base/base.css">
-    <link rel="stylesheet" href="../css/layout/header.css">
-    <link rel="stylesheet" href="../css/layout/admin.css">
-    <link rel="stylesheet" href="../css/layout/footer.css">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
-    <title>AluraGeek</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/base/reset.css">
+        <link rel="stylesheet" href="../css/base/base.css">
+        <link rel="stylesheet" href="../css/layout/header.css">
+        <link rel="stylesheet" href="../css/layout/check.css">
+        <link rel="stylesheet" href="../css/layout/footer.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+        <title>AluraGeek</title>
+    </head>
 <body>
     <header class="container">
         <nav class="menu">
@@ -31,21 +31,13 @@
         </nav>
     </header>
 
-    <section class="hero__banner">
-        <div class="hero__title-box container">
-            <h1 class="hero_title">Febrero Promocional</h1>
-            <h2 class="hero_subtitle">Productos seleccionados con 33% de descuento</h2>
-            <a class="hero__action-button">Ver Consolas</a>
-        </div>
-    </section>
-
-    <main class="main__eshop container">
-        <section class="all-products category">
-            <div class="category__title-box">
-                <h2 class="category__title">Todos los productos</h2>
-                <a class="category__button" href="./add-product.html">Agregar producto</a>
+    <main>
+        <section class="check">
+            <div class="check__container container">
+                <h1 class="check__title">¡Registro exitoso!</h1>
+                <img class="check__img" src="../assets/check.svg" alt="Icono de verificación">
+                <a class="check__action-button" href="./admin.html">Ver productos</a>
             </div>
-            <div class="all-products__stock" data-products></div>
         </section>
     </main>
 
@@ -79,8 +71,5 @@
             <p>&copy Copyrigth- 2022 | Ruggeri Juan</p>
         </div>
     </footer>
-
-    <!-- Script -->
-    <script src="../scripts/controller/admin-products.js"></script>
 </body>
 </html>

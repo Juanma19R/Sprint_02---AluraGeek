@@ -1,0 +1,37 @@
+.check{
+    padding: 5rem 0 5rem 0;
+    background-color: #f3efef;
+}
+.check__container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 30%;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+.check__title{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.check__img{
+    width: 130px;
+}
+.check__action-button{
+    padding: .8rem .5rem;
+    font-weight: lighter;
+    margin-top: 2rem;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    outline: none;
+    width: 8rem;
+    text-align: center;
+}
+.check__action-button:hover{
+    background-color: var(--color-dark-blue);
+    cursor: pointer;
+}
